@@ -1,0 +1,83 @@
+# === Android/Jetpack Compose Kotlin Project ===
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle/**/build/
+
+# Local configuration
+/local.properties
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ & Android Studio
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/.name
+
+# Build output
+*/build/
+*/bin/
+*.apk
+*.ap_
+
+# Kotlin specific
+*.class
+*.ktlint*
+*.kts~*
+*.log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jetpack Compose previews
+**/ui/preview/**
+
+# Dependency caches
+.cxx/
+.externalNativeBuild/
+
+# Signing files
+*.jks
+*.keystore
+key.properties
+
+# Crashlytics/Firebase
+crashlytics-build.properties
+fabric.properties
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+*.orig
+*.rej
+*.swo
+*.swp
+
+# JetBrains IDEs
+*.idea/
+*.iws
+out/
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Uncomment if using local test keystore
+# debug.keystore
