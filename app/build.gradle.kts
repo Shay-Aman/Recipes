@@ -80,4 +80,8 @@ dependencies {
 
     //Coil
     implementation(libs.coil.compose)
+
+    //Biometric
+    implementation(libs.androidx.biometric)
+    implementation(libs.androidx.security.crypto)
 }
