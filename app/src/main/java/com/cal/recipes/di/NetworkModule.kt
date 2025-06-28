@@ -1,6 +1,6 @@
 package com.cal.recipes.di
 
-import com.cal.recipes.ui.screens.recipelist.RecipeListViewModel
+import com.cal.recipes.ui.screens.RecipeListViewModel
 import com.cal.recipes.network.RecipeApi
 import com.cal.recipes.repositories.RecipeRepository
 import com.cal.recipes.repositories.RecipeRepositoryImpl
